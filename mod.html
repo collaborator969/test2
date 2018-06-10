@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" media="screen" href="manage1.css" >
+</head>
+<body>
+        <form name="search" value="3333">
+                <input type="text" name="key" value="66666"></input>
+                <input type="submit" name="send"></input>
+            </form>
+            <script>
+            var searchForm = document.forms["search"];
+            //for(var i=0; i<searchForm.elements.length;i++)
+            //    document.write(searchForm.elements[i].name + "<br/>");
+            document.write(document.forms["search"].elements["key"].value);
+            </script>
+</body>
+</html>
